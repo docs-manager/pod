@@ -1,0 +1,56 @@
+# Archbee Configuration for Xandeum Pod Documentation
+# This file must be in the root of your repository
+# Reference: https://www.archbee.com/docs/set-up-the-repository
+
+# Define where the markdown docs are located
+# If your docs are in a /docs folder, use: root: /docs
+# For now, assuming docs are in root or you'll specify the path
+docspath: /docs
+
+# Structure configuration
+structure:
+  # summary.md defines the document tree navigation in Archbee
+  summary: summary.md
+  # Assets folder relative to docspath
+  assets: assets
+
+# Auto-publish to production after each commit
+publishspace: true
+
+# Document tree options (for OpenAPI/Swagger if needed)
+doctreeoptions:
+  openapitryit: true
+  showdownloadopenapifile: true
+  shouldcreateschemacategory: true
+  shouldcreateintro: true
+  openapilanguageexamples:
+    - value: bash
+      label: Bash
+    - value: javascript
+      label: JavaScript
+    - value: python
+      label: Python
+
+# Custom CSS (optional - add your brand styling)
+customcss: |
+  :root {
+    --primary-color: #your-brand-color;
+    --accent-color: #your-accent-color;
+  }
+
+# Custom JavaScript (optional)
+customjs: ""
+
+# Footer template (optional)
+footertemplate: |
+  <div style="text-align: center; padding: 20px;">
+    <p>Made with ❤️ by the Xandeum Team</p>
+    <p>
+      <a href="https://github.com/xandeum" target="_blank">GitHub</a> | 
+      <a href="https://twitter.com/xandeum" target="_blank">Twitter</a>
+    </p>
+  </div>
+
+# Header includes (optional - for analytics, etc.)
+headerincludes: ""
+
