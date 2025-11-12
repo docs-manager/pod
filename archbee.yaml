@@ -3,9 +3,8 @@
 # Reference: https://www.archbee.com/docs/set-up-the-repository
 
 # Define where the markdown docs are located
-# If your docs are in a /docs folder, use: root: /docs
-# For now, assuming docs are in root or you'll specify the path
-docspath: /docs
+# This tells Archbee where to find your markdown files
+root: docs
 
 # Structure configuration
 structure:
