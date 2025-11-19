@@ -1,4 +1,4 @@
-# Xandeum Pod Documentation
+# pNode pod Documentation
 
 [Welcome](index.md)
 
@@ -8,14 +8,14 @@
 [Basic Usage](index.md#basic-usage)
 [Test Your Setup](index.md#test-your-setup)
 
-## pRPC API
+## pNode RPC (pRPC) Reference
 
 [Overview](rpc-api.md)
 [get-version](rpc-api.md#get-version)
 [get-stats](rpc-api.md#get-stats)
 [get-pods](rpc-api.md#get-pods)
 
-## CLI Usage
+## pNode CLI Usage
 
 [CLI Overview](cli.md)
 [Configuration Options](cli.md#configuration)
