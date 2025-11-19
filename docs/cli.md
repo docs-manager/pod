@@ -1,4 +1,4 @@
-# CLI Usage
+# pNode CLI Usage
 
 Complete reference for all command-line arguments and configuration options.
 

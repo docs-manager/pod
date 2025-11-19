@@ -1,4 +1,4 @@
-# pRPC API Reference
+# pNode RPC (pRPC) Reference
 
 Complete reference for all JSON-RPC 2.0 methods available in Xandeum pNode.
 

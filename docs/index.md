@@ -1,4 +1,4 @@
-# ![Xandeum Logo](assets/images/XandeumLogoStandard.png "Xandeum Logo"){ width="150" } Xandeum pNode Documentation
+# ![Xandeum Logo](assets/images/XandeumLogoStandard.png "Xandeum Logo"){ width="150" } pNode pod Documentation
 
 Welcome to the documentation for Xandeum pNode - a high-performance blockchain node implementation.
 
@@ -97,7 +97,7 @@ Complete JSON-RPC 2.0 API for interacting with your pnode:
 
 [View pRPC API Documentation](rpc-api.md){ .md-button .md-button--primary }
 
-### ⚙️ CLI Usage
+### ⚙️ pNode CLI Usage
 Comprehensive command-line reference:
 - **--rpc-ip**: Configure pRPC server IP binding
 - **--entrypoint**: Set bootstrap node for peer discovery
